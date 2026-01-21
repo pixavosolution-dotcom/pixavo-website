@@ -1,0 +1,1992 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixavo | Professional Video Editing & Graphic Design Agency | Global Creative Services</title>
+    <meta name="description" content="Pixavo: Premier video editing & graphic design agency serving YouTubers, startups, and businesses worldwide. Professional video editor, graphic designer, social media content creation, and branding services.">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="video editing, graphic design, video editor, graphic designer, social media content, branding, YouTube editing, professional video editing, creative agency, motion graphics, animation, visual effects, logo design, brand identity, startup branding, video production, post-production, Adobe Premiere Pro, After Effects, Photoshop, Illustrator, content creation, digital marketing, creative services">
+    <meta name="author" content="Pixavo Creative Agency">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#2979FF">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Pixavo | Where Vision Meets Creativity">
+    <meta property="og:description" content="Global video editing & graphic design agency for YouTubers, startups, and businesses.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pixavo.com">
+    <meta property="og:image" content="https://pixavo.com/images/og-image.jpg">
+    
+    <!-- Structured Data / Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Pixavo Creative Agency",
+      "description": "Global video editing and graphic design agency",
+      "url": "https://pixavo.com",
+      "logo": "https://pixavo.com/logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Global",
+        "addressRegion": "Worldwide",
+        "addressCountry": "International"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+923175919638",
+        "email": "pixavosolution@gmail.com",
+        "contactType": "customer service"
+      },
+      "sameAs": [
+        "https://www.tiktok.com/@pixavo3",
+        "https://www.instagram.com/pixavosolution/",
+        "https://www.linkedin.com/in/pixavo-7928913a7/",
+        "https://www.youtube.com/@Pixavo-j6m"
+      ],
+      "serviceType": "Video Editing, Graphic Design, Social Media Content, Branding",
+      "areaServed": "Worldwide",
+      "offers": {
+        "@type": "Service",
+        "name": "Creative Services"
+      }
+    }
+    </script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="logo.png">
+    <style>
+        :root {
+            --electric-blue: #2979FF;
+            --electric-blue-light: #5393ff;
+            --vibrant-purple: #9C27B0;
+            --vibrant-purple-light: #c158d4;
+            --cyber-teal: #00E5FF;
+            --neon-pink: #FF4081;
+            --dark-bg: #0A0F1C;
+            --light-gray: #F5F7FA;
+            --medium-gray: #E0E0E0;
+            --dark-gray: #2C3E50;
+            --white: #FFFFFF;
+            --shadow: rgba(0, 0, 0, 0.15);
+            --transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            --gradient-primary: linear-gradient(135deg, var(--electric-blue), var(--vibrant-purple));
+            --gradient-secondary: linear-gradient(135deg, var(--cyber-teal), var(--electric-blue));
+            --gradient-accent: linear-gradient(135deg, var(--neon-pink), var(--vibrant-purple));
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.7;
+            color: var(--dark-gray);
+            background-color: var(--white);
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 32px;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: var(--transition);
+            cursor: pointer;
+            border: none;
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.2);
+            z-index: -1;
+            transition: width 0.5s ease;
+        }
+
+        .btn:hover::before {
+            width: 100%;
+        }
+
+        .btn-primary {
+            background: var(--gradient-primary);
+            color: var(--white);
+            box-shadow: 0 10px 30px rgba(41, 121, 255, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(41, 121, 255, 0.4);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--electric-blue);
+            border: 2px solid var(--electric-blue);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(41, 121, 255, 0.1);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(41, 121, 255, 0.2);
+        }
+
+        .btn-accent {
+            background: var(--gradient-accent);
+            color: var(--white);
+            box-shadow: 0 10px 30px rgba(255, 64, 129, 0.3);
+        }
+
+        .btn-accent:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(255, 64, 129, 0.4);
+        }
+
+        section {
+            padding: 100px 0;
+            position: relative;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 70px;
+            position: relative;
+        }
+
+        .section-title h2 {
+            font-size: 42px;
+            color: var(--dark-gray);
+            margin-bottom: 15px;
+            display: inline-block;
+            position: relative;
+        }
+
+        .section-title h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: var(--gradient-primary);
+            border-radius: 2px;
+        }
+
+        .section-title p {
+            color: #666;
+            max-width: 700px;
+            margin: 0 auto;
+            font-size: 18px;
+        }
+
+        /* Header & Navigation */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: rgba(255, 255, 255, 0.98);
+            box-shadow: 0 5px 30px rgba(0, 0, 0, 0.08);
+            padding: 18px 0;
+            transition: var(--transition);
+            backdrop-filter: blur(10px);
+        }
+
+        .header-scrolled {
+            padding: 12px 0;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Logo Styles */
+        .logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            gap: 12px;
+        }
+
+        .logo-image {
+            height: 45px;
+            width: auto;
+            transition: var(--transition);
+        }
+
+        .logo:hover .logo-image {
+            transform: scale(1.05) rotate(2deg);
+        }
+
+        .logo-text {
+            font-family: 'Poppins', sans-serif;
+            font-size: 32px;
+            font-weight: 800;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            position: relative;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-links li {
+            margin-left: 35px;
+            position: relative;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--dark-gray);
+            font-weight: 600;
+            font-size: 16px;
+            transition: var(--transition);
+            position: relative;
+            padding: 5px 0;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 3px;
+            background: var(--gradient-primary);
+            border-radius: 1.5px;
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover::after,
+        .nav-links a.active::after {
+            width: 100%;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--electric-blue);
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 28px;
+            color: var(--dark-gray);
+            cursor: pointer;
+            z-index: 1001;
+            transition: var(--transition);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding-top: 180px;
+            padding-bottom: 150px;
+            background: linear-gradient(135deg, rgba(10, 15, 28, 0.03) 0%, rgba(41, 121, 255, 0.03) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-bg-animation {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .hero-content {
+            max-width: 750px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-size: 58px;
+            margin-bottom: 25px;
+            color: var(--dark-gray);
+            line-height: 1.1;
+        }
+
+        .hero h1 span {
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            position: relative;
+            display: inline-block;
+            animation: textGlow 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes textGlow {
+            0% {
+                text-shadow: 0 0 10px rgba(41, 121, 255, 0.3);
+            }
+            100% {
+                text-shadow: 0 0 20px rgba(156, 39, 176, 0.4), 0 0 30px rgba(41, 121, 255, 0.2);
+            }
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #666;
+            margin-bottom: 40px;
+            max-width: 650px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .hero-visual {
+            position: absolute;
+            right: 0;
+            top: 100px;
+            width: 600px;
+            height: 500px;
+            z-index: 1;
+            opacity: 0.9;
+        }
+
+        .floating-shapes {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        .shape {
+            position: absolute;
+            border-radius: 50%;
+            background: var(--gradient-primary);
+            opacity: 0.1;
+            animation: float 20s infinite linear;
+        }
+
+        .shape:nth-child(1) {
+            width: 100px;
+            height: 100px;
+            top: 10%;
+            left: 10%;
+            animation-delay: 0s;
+        }
+
+        .shape:nth-child(2) {
+            width: 150px;
+            height: 150px;
+            top: 40%;
+            right: 10%;
+            background: var(--gradient-accent);
+            animation-delay: -5s;
+        }
+
+        .shape:nth-child(3) {
+            width: 80px;
+            height: 80px;
+            bottom: 20%;
+            left: 20%;
+            background: var(--gradient-secondary);
+            animation-delay: -10s;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translate(0, 0) rotate(0deg);
+            }
+            25% {
+                transform: translate(20px, 40px) rotate(90deg);
+            }
+            50% {
+                transform: translate(-30px, 20px) rotate(180deg);
+            }
+            75% {
+                transform: translate(10px, -20px) rotate(270deg);
+            }
+        }
+
+        /* Services Section */
+        #services {
+            background-color: var(--light-gray);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+        }
+
+        .service-card {
+            background: var(--white);
+            border-radius: 20px;
+            padding: 40px 30px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+            transition: var(--transition);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: var(--gradient-primary);
+            z-index: 2;
+            transition: height 0.4s ease;
+        }
+
+        .service-card:hover::before {
+            height: 100%;
+            opacity: 0.05;
+        }
+
+        .service-card:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.15);
+        }
+
+        .service-card i {
+            font-size: 48px;
+            margin-bottom: 25px;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            display: inline-block;
+            transition: var(--transition);
+        }
+
+        .service-card:hover i {
+            transform: scale(1.2) rotate(5deg);
+        }
+
+        .service-card h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: var(--dark-gray);
+        }
+
+        .service-card p {
+            color: #666;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Portfolio Section */
+        .portfolio {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .portfolio-filter {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 50px;
+        }
+
+        .filter-btn {
+            padding: 10px 25px;
+            background: transparent;
+            border: 2px solid var(--medium-gray);
+            border-radius: 50px;
+            font-weight: 600;
+            color: var(--dark-gray);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .filter-btn:hover,
+        .filter-btn.active {
+            background: var(--gradient-primary);
+            color: var(--white);
+            border-color: transparent;
+            box-shadow: 0 10px 25px rgba(41, 121, 255, 0.3);
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+        .portfolio-item {
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+            height: 280px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: var(--transition);
+        }
+
+        .portfolio-item:hover {
+            transform: translateY(-15px) scale(1.02);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+
+        .portfolio-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .portfolio-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, transparent, rgba(10, 15, 28, 0.9));
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 25px;
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        .portfolio-item:hover .portfolio-overlay {
+            opacity: 1;
+        }
+
+        .portfolio-overlay h3 {
+            color: var(--white);
+            font-size: 22px;
+            margin-bottom: 10px;
+            transform: translateY(20px);
+            transition: transform 0.5s ease;
+        }
+
+        .portfolio-item:hover .portfolio-overlay h3 {
+            transform: translateY(0);
+        }
+
+        .portfolio-overlay .category {
+            color: var(--cyber-teal);
+            font-weight: 600;
+            font-size: 14px;
+            letter-spacing: 1px;
+            transform: translateY(20px);
+            transition: transform 0.5s ease 0.1s;
+        }
+
+        .portfolio-item:hover .portfolio-overlay .category {
+            transform: translateY(0);
+        }
+
+        /* About Section */
+        #about {
+            background-color: var(--light-gray);
+            position: relative;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 60px;
+            align-items: center;
+        }
+
+        .about-text h2 {
+            font-size: 42px;
+            margin-bottom: 25px;
+            color: var(--dark-gray);
+        }
+
+        .about-text p {
+            margin-bottom: 25px;
+            color: #666;
+            font-size: 18px;
+        }
+
+        .about-stats {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .stat {
+            text-align: center;
+            position: relative;
+        }
+
+        .stat-number {
+            font-size: 48px;
+            font-weight: 800;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 5px;
+            line-height: 1;
+        }
+
+        .stat-label {
+            color: #666;
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        /* Contact Section - IMPROVED */
+        .contact-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 60px;
+        }
+
+        .contact-form {
+            background: var(--white);
+            padding: 50px 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .contact-form::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: var(--gradient-primary);
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+            position: relative;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 600;
+            color: var(--dark-gray);
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 15px 20px;
+            border: 2px solid var(--medium-gray);
+            border-radius: 10px;
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            transition: var(--transition);
+            background: var(--white);
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--electric-blue);
+            box-shadow: 0 0 0 5px rgba(41, 121, 255, 0.1);
+        }
+
+        /* Direct Contact Info */
+        .direct-contact {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .direct-contact h3 {
+            margin-bottom: 25px;
+            color: var(--dark-gray);
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .direct-contact h3 i {
+            color: var(--electric-blue);
+            font-size: 26px;
+        }
+
+        .contact-info-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--medium-gray);
+        }
+
+        .contact-info-item:last-child {
+            border-bottom: none;
+        }
+
+        .contact-info-item i {
+            font-size: 22px;
+            color: var(--electric-blue);
+            margin-right: 15px;
+            margin-top: 5px;
+            min-width: 30px;
+        }
+
+        .contact-info-item .contact-details h4 {
+            font-size: 18px;
+            margin-bottom: 5px;
+            color: var(--dark-gray);
+        }
+
+        .contact-info-item .contact-details p,
+        .contact-info-item .contact-details a {
+            color: #666;
+            text-decoration: none;
+            transition: var(--transition);
+            display: block;
+        }
+
+        .contact-info-item .contact-details a:hover {
+            color: var(--electric-blue);
+            transform: translateX(5px);
+        }
+
+        /* Social Links - COMPLETELY UPDATED WITH ALL YOUR LINKS */
+        .social-links {
+            margin-top: 40px;
+        }
+
+        .social-links h3 {
+            margin-bottom: 20px;
+            color: var(--dark-gray);
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .social-links h3 i {
+            color: var(--electric-blue);
+            font-size: 26px;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .social-icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 80px;
+            height: 80px;
+            background: var(--white);
+            border-radius: 15px;
+            color: var(--dark-gray);
+            font-size: 30px;
+            text-decoration: none;
+            transition: var(--transition);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .social-icon::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            transform: scale(0);
+            transition: transform 0.5s ease;
+            border-radius: 15px;
+        }
+
+        .social-icon:hover::before {
+            transform: scale(1);
+        }
+
+        .social-icon:hover {
+            transform: translateY(-10px);
+            color: var(--white);
+        }
+
+        /* Platform-specific colors */
+        .social-icon.instagram::before { 
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        }
+        .social-icon.tiktok::before { background: #000000; }
+        .social-icon.linkedin::before { background: #0A66C2; }
+        .social-icon.youtube::before { background: #FF0000; }
+        .social-icon.whatsapp::before { background: #25D366; }
+        .social-icon.email::before { background: #EA4335; }
+        .social-icon.phone::before { background: #34B7F1; }
+
+        .social-icon .platform-name {
+            font-size: 11px;
+            margin-top: 5px;
+            font-weight: 600;
+            opacity: 0.8;
+        }
+
+        .social-icon:hover .platform-name {
+            color: var(--white);
+        }
+
+        /* Footer - UPDATED */
+        footer {
+            background-color: var(--dark-bg);
+            color: var(--white);
+            padding: 80px 0 40px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 50px;
+            margin-bottom: 60px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .footer-column h3 {
+            font-size: 22px;
+            margin-bottom: 25px;
+            color: var(--white);
+            position: relative;
+            display: inline-block;
+        }
+
+        .footer-column h3::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 40px;
+            height: 3px;
+            background: var(--gradient-primary);
+            border-radius: 1.5px;
+        }
+
+        .footer-column ul {
+            list-style: none;
+        }
+
+        .footer-column ul li {
+            margin-bottom: 15px;
+        }
+
+        .footer-column ul li a {
+            color: #ccc;
+            text-decoration: none;
+            transition: var(--transition);
+            display: inline-block;
+        }
+
+        .footer-column ul li a:hover {
+            color: var(--electric-blue-light);
+            transform: translateX(5px);
+        }
+
+        .footer-contact-info {
+            margin-top: 10px;
+        }
+
+        .footer-contact-info li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .footer-contact-info i {
+            color: var(--electric-blue-light);
+            margin-right: 10px;
+            font-size: 18px;
+            min-width: 25px;
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 40px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #999;
+            font-size: 15px;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* SEO Keywords Section */
+        .seo-keywords {
+            background-color: var(--dark-bg);
+            padding: 60px 0;
+            color: var(--white);
+            text-align: center;
+        }
+
+        .seo-keywords h3 {
+            font-size: 24px;
+            margin-bottom: 30px;
+            color: var(--white);
+        }
+
+        .keywords-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .keyword-tag {
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .keyword-tag:hover {
+            background: var(--gradient-primary);
+            transform: translateY(-5px);
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fadeInUp {
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .animate-delay-1 {
+            animation-delay: 0.2s;
+        }
+
+        .animate-delay-2 {
+            animation-delay: 0.4s;
+        }
+
+        .animate-delay-3 {
+            animation-delay: 0.6s;
+        }
+
+        /* Loading Animation */
+        .loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--dark-bg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease, visibility 0.5s ease;
+        }
+
+        .loading.hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .loader {
+            width: 50px;
+            height: 50px;
+            border: 3px solid rgba(255, 255, 255, 0.1);
+            border-top-color: var(--electric-blue);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: var(--gradient-primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            text-decoration: none;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+            z-index: 999;
+            box-shadow: 0 5px 20px rgba(41, 121, 255, 0.3);
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .back-to-top:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(41, 121, 255, 0.4);
+        }
+
+        /* WhatsApp Button */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            width: 60px;
+            height: 60px;
+            background: #25D366;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            text-decoration: none;
+            z-index: 999;
+            box-shadow: 0 5px 20px rgba(37, 211, 102, 0.3);
+            transition: var(--transition);
+        }
+
+        .whatsapp-float:hover {
+            transform: translateY(-5px) scale(1.1);
+            box-shadow: 0 10px 30px rgba(37, 211, 102, 0.4);
+        }
+
+        .whatsapp-text {
+            position: absolute;
+            right: 70px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-size: 14px;
+            white-space: nowrap;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            pointer-events: none;
+        }
+
+        .whatsapp-float:hover .whatsapp-text {
+            opacity: 1;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 1200px) {
+            .hero-visual {
+                width: 500px;
+                height: 400px;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .hero {
+                padding-top: 160px;
+                text-align: center;
+            }
+
+            .hero h1 {
+                font-size: 48px;
+            }
+
+            .hero-visual {
+                position: relative;
+                right: auto;
+                top: auto;
+                width: 100%;
+                max-width: 500px;
+                height: 400px;
+                margin: 60px auto 0;
+            }
+
+            .hero-content {
+                max-width: 100%;
+            }
+
+            .hero-buttons {
+                justify-content: center;
+            }
+
+            .section-title h2 {
+                font-size: 36px;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            .nav-links {
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 300px;
+                height: 100vh;
+                background-color: var(--white);
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 100px 40px 40px;
+                box-shadow: -10px 0 30px rgba(0, 0, 0, 0.1);
+                transition: right 0.5s ease;
+            }
+
+            .nav-links.active {
+                right: 0;
+            }
+
+            .nav-links li {
+                margin: 0 0 25px 0;
+            }
+
+            .nav-links a {
+                font-size: 18px;
+            }
+
+            section {
+                padding: 80px 0;
+            }
+
+            .social-icon {
+                width: 70px;
+                height: 70px;
+                font-size: 26px;
+            }
+
+            .whatsapp-float {
+                left: 20px;
+                bottom: 90px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 40px;
+            }
+
+            .section-title h2 {
+                font-size: 32px;
+            }
+
+            .about-text h2 {
+                font-size: 32px;
+            }
+
+            .contact-form {
+                padding: 40px 30px;
+            }
+
+            .portfolio-grid {
+                grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            }
+            
+            /* Mobile logo adjustments */
+            .logo-image {
+                height: 35px;
+            }
+            
+            .logo-text {
+                font-size: 26px;
+            }
+
+            .social-icon {
+                width: 65px;
+                height: 65px;
+                font-size: 24px;
+            }
+
+            .social-icon .platform-name {
+                font-size: 10px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .section-title h2 {
+                font-size: 28px;
+            }
+
+            .btn {
+                padding: 12px 25px;
+                font-size: 15px;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hero-buttons .btn {
+                width: 100%;
+                max-width: 250px;
+                text-align: center;
+            }
+
+            .contact-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .back-to-top {
+                bottom: 20px;
+                right: 20px;
+                width: 45px;
+                height: 45px;
+                font-size: 18px;
+            }
+
+            .whatsapp-float {
+                width: 55px;
+                height: 55px;
+                font-size: 26px;
+                left: 15px;
+                bottom: 80px;
+            }
+
+            .social-icons {
+                justify-content: center;
+            }
+
+            .social-icon {
+                width: 60px;
+                height: 60px;
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading" id="loading">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/923175919638" class="whatsapp-float" target="_blank" aria-label="Contact Pixavo on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-text">Chat with us on WhatsApp</span>
+    </a>
+
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#" class="logo" aria-label="Pixavo Creative Agency Home">
+                <!-- YOUR LOGO HERE - logo.png in same folder -->
+                <img src="logo.png" alt="Pixavo Creative Agency Logo - Professional Video Editing & Graphic Design Services" class="logo-image">
+                <span class="logo-text">Pixavo</span>
+            </a>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-animation">
+            <div class="floating-shapes">
+                <div class="shape"></div>
+                <div class="shape"></div>
+                <div class="shape"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hero-content animate-fadeInUp">
+                <h1>Where <span>Vision Meets Creativity</span></h1>
+                <p class="animate-delay-1">Pixavo is a global video editing and graphic design agency serving international clients, YouTubers, startups, and businesses with cutting-edge visual solutions that elevate brands and engage audiences. Our professional video editors and graphic designers create stunning visuals that tell compelling stories.</p>
+                <div class="hero-buttons animate-delay-2">
+                    <a href="#contact" class="btn btn-primary">Get a Quote</a>
+                    <a href="#portfolio" class="btn btn-secondary">See Portfolio</a>
+                </div>
+            </div>
+            <div class="hero-visual animate-delay-3">
+                <div class="floating-shapes">
+                    <div class="shape"></div>
+                    <div class="shape"></div>
+                    <div class="shape"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Creative Services</h2>
+                <p>We provide comprehensive creative services to help your brand stand out in today's competitive digital landscape.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card animate-fadeInUp">
+                    <i class="fas fa-video"></i>
+                    <h3>Professional Video Editing</h3>
+                    <p>Expert video editing for YouTube, social media, commercials, and corporate videos with motion graphics, color grading, and visual effects. Our video editors transform raw footage into compelling stories.</p>
+                </div>
+                <div class="service-card animate-fadeInUp animate-delay-1">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Graphic Design & Illustration</h3>
+                    <p>Stunning visuals for logos, branding, social media posts, advertisements, and print materials that communicate your message. Our graphic designers create memorable brand identities.</p>
+                </div>
+                <div class="service-card animate-fadeInUp animate-delay-2">
+                    <i class="fas fa-share-alt"></i>
+                    <h3>Social Media Content Creation</h3>
+                    <p>Eye-catching content tailored for Instagram, TikTok, Facebook, and Twitter to increase engagement and grow your audience. We create scroll-stopping visuals that drive results.</p>
+                </div>
+                <div class="service-card animate-fadeInUp animate-delay-3">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Brand Identity & Strategy</h3>
+                    <p>Complete brand identity development including logo design, brand guidelines, and visual strategy for consistent messaging across all platforms. We build brands that resonate.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Portfolio</h2>
+                <p>Explore our recent work for clients around the world across different industries and creative disciplines.</p>
+            </div>
+            
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All Work</button>
+                <button class="filter-btn" data-filter="video">Video Editing</button>
+                <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+                <button class="filter-btn" data-filter="social">Social Media</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="video">
+                    <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="YouTube Video Editing Project - Travel Series">
+                    <div class="portfolio-overlay">
+                        <h3>YouTube Travel Series</h3>
+                        <div class="category">Video Editing</div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="graphic branding">
+                    <img src="https://images.unsplash.com/photo-1634942537034-2531766767d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Tech Startup Brand Identity Design">
+                    <div class="portfolio-overlay">
+                        <h3>Tech Startup Branding</h3>
+                        <div class="category">Graphic Design & Branding</div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="social video">
+                    <img src="https://images.unsplash.com/photo-1611605698323-b1e99cfd37ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Fashion Social Media Campaign Video">
+                    <div class="portfolio-overlay">
+                        <h3>Fashion Social Media Campaign</h3>
+                        <div class="category">Social Media & Video</div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="video">
+                    <img src="https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Corporate Training Video Production">
+                    <div class="portfolio-overlay">
+                        <h3>Corporate Training Video</h3>
+                        <div class="category">Video Editing</div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="graphic branding">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Restaurant Logo & Menu Graphic Design">
+                    <div class="portfolio-overlay">
+                        <h3>Restaurant Logo & Menu Design</h3>
+                        <div class="category">Graphic Design</div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="video social">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Product Launch Video with Social Media Content">
+                    <div class="portfolio-overlay">
+                        <h3>Product Launch Video</h3>
+                        <div class="category">Video & Social Media</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text animate-fadeInUp">
+                    <h2>Creative Excellence Meets Professional Precision</h2>
+                    <p>At Pixavo, we believe that powerful visuals tell compelling stories. Our team of experienced video editors, graphic designers, and visual strategists work together to transform your ideas into captivating visual content.</p>
+                    <p>With clients across five continents, we've developed a global perspective that informs our creative approach. Whether you're a YouTuber looking to grow your channel, a startup building your brand, or a business seeking to engage your audience, we tailor our services to meet your specific needs.</p>
+                    <p>Our process combines cutting-edge technology with artistic vision, ensuring every project we deliver is both visually stunning and strategically effective. From video editing to graphic design, we are your one-stop creative solution.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-number">750+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Countries Served</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">99%</div>
+                            <div class="stat-label">Client Satisfaction</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">48hr</div>
+                            <div class="stat-label">Avg. Delivery Time</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual animate-fadeInUp animate-delay-1">
+                    <div class="hero-visual" style="position: relative; transform: none; width: 100%; height: 400px; box-shadow: 0 25px 60px rgba(0,0,0,0.15); border-radius: 20px; overflow: hidden;">
+                        <div class="floating-shapes">
+                            <div class="shape"></div>
+                            <div class="shape"></div>
+                            <div class="shape"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p>Ready to bring your vision to life? Contact us for a quote or to discuss your next project.</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-form animate-fadeInUp">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company / YouTube Channel</label>
+                            <input type="text" id="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interested In *</label>
+                            <select id="service" required>
+                                <option value="">Select a service</option>
+                                <option value="video-editing">Video Editing</option>
+                                <option value="graphic-design">Graphic Design</option>
+                                <option value="social-media">Social Media Content</option>
+                                <option value="branding">Branding</option>
+                                <option value="multiple">Multiple Services</option>
+                                <option value="consultation">Creative Consultation</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Project Details *</label>
+                            <textarea id="message" rows="5" required placeholder="Tell us about your project, timeline, and budget..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Request</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info animate-fadeInUp animate-delay-1">
+                    <!-- Direct Contact Info -->
+                    <div class="direct-contact">
+                        <h3><i class="fas fa-address-book"></i> Contact Information</h3>
+                        
+                        <div class="contact-info-item">
+                            <i class="fas fa-phone"></i>
+                            <div class="contact-details">
+                                <h4>Phone / WhatsApp</h4>
+                                <a href="tel:+923175919638">+92 317 5919638</a>
+                                <a href="https://wa.me/923175919638" target="_blank">(Click to WhatsApp)</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div class="contact-details">
+                                <h4>Email Address</h4>
+                                <a href="mailto:pixavosolution@gmail.com">pixavosolution@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <i class="fas fa-clock"></i>
+                            <div class="contact-details">
+                                <h4>Business Hours</h4>
+                                <p>24/7 Support Available</p>
+                                <p>Fast Response Guaranteed</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Social Links - ALL YOUR SOCIAL MEDIA LINKS -->
+                    <div class="social-links">
+                        <h3><i class="fas fa-share-alt"></i> Follow Us Online</h3>
+                        <div class="social-icons">
+                            <a href="https://www.tiktok.com/@pixavo3?_r=1&_t=ZS-93FsYIJBi5A" class="social-icon tiktok" target="_blank" aria-label="Follow Pixavo on TikTok">
+                                <i class="fab fa-tiktok"></i>
+                                <span class="platform-name">TikTok</span>
+                            </a>
+                            
+                            <a href="https://www.instagram.com/pixavosolution/" class="social-icon instagram" target="_blank" aria-label="Follow Pixavo on Instagram">
+                                <i class="fab fa-instagram"></i>
+                                <span class="platform-name">Instagram</span>
+                            </a>
+                            
+                            <a href="https://www.linkedin.com/in/pixavo-7928913a7/" class="social-icon linkedin" target="_blank" aria-label="Connect with Pixavo on LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                                <span class="platform-name">LinkedIn</span>
+                            </a>
+                            
+                            <a href="https://www.youtube.com/@Pixavo-j6m" class="social-icon youtube" target="_blank" aria-label="Subscribe to Pixavo on YouTube">
+                                <i class="fab fa-youtube"></i>
+                                <span class="platform-name">YouTube</span>
+                            </a>
+                            
+                            <a href="https://wa.me/923175919638" class="social-icon whatsapp" target="_blank" aria-label="Message Pixavo on WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                                <span class="platform-name">WhatsApp</span>
+                            </a>
+                            
+                            <a href="mailto:pixavosolution@gmail.com" class="social-icon email" aria-label="Email Pixavo">
+                                <i class="fas fa-envelope"></i>
+                                <span class="platform-name">Email</span>
+                            </a>
+                            
+                            <a href="tel:+923175919638" class="social-icon phone" aria-label="Call Pixavo">
+                                <i class="fas fa-phone"></i>
+                                <span class="platform-name">Call</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top: 40px;">
+                        <h3><i class="fas fa-bolt"></i> Fast Response Guarantee</h3>
+                        <p>We typically respond to inquiries within 12 hours during business days. For urgent projects, please indicate in your message and we'll prioritize your request.</p>
+                        <p style="margin-top: 15px; color: var(--electric-blue); font-weight: 600;">
+                            <i class="fas fa-clock" style="margin-right: 8px;"></i> 24/7 Support for Existing Clients
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEO Keywords Section -->
+    <section class="seo-keywords">
+        <div class="container">
+            <h3>Pixavo Creative Services</h3>
+            <div class="keywords-container">
+                <span class="keyword-tag">Video Editing</span>
+                <span class="keyword-tag">Graphic Design</span>
+                <span class="keyword-tag">Professional Video Editor</span>
+                <span class="keyword-tag">Graphic Designer</span>
+                <span class="keyword-tag">Social Media Content</span>
+                <span class="keyword-tag">Brand Identity</span>
+                <span class="keyword-tag">YouTube Editing</span>
+                <span class="keyword-tag">Motion Graphics</span>
+                <span class="keyword-tag">Visual Effects</span>
+                <span class="keyword-tag">Logo Design</span>
+                <span class="keyword-tag">Creative Agency</span>
+                <span class="keyword-tag">Adobe Premiere Pro</span>
+                <span class="keyword-tag">After Effects</span>
+                <span class="keyword-tag">Photoshop</span>
+                <span class="keyword-tag">Illustrator</span>
+                <span class="keyword-tag">Post-Production</span>
+                <span class="keyword-tag">Video Production</span>
+                <span class="keyword-tag">Content Creation</span>
+                <span class="keyword-tag">Digital Marketing</span>
+                <span class="keyword-tag">Startup Branding</span>
+                <span class="keyword-tag">Animation</span>
+                <span class="keyword-tag">Color Grading</span>
+                <span class="keyword-tag">Corporate Video</span>
+                <span class="keyword-tag">Commercial Video</span>
+                <span class="keyword-tag">Social Media Marketing</span>
+                <span class="keyword-tag">Creative Services</span>
+                <span class="keyword-tag">Global Agency</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Pixavo</h3>
+                    <p style="color: #ccc; margin-bottom: 20px;">Where Vision Meets Creativity. A global video editing and graphic design agency serving clients worldwide with innovative visual solutions.</p>
+                    <p style="color: var(--cyber-teal); font-weight: 600;">
+                        <i class="fas fa-globe" style="margin-right: 8px;"></i> Serving Clients Worldwide
+                    </p>
+                </div>
+                <div class="footer-column">
+                    <h3>Creative Services</h3>
+                    <ul>
+                        <li><a href="#services">Video Editing Services</a></li>
+                        <li><a href="#services">Graphic Design Services</a></li>
+                        <li><a href="#services">Social Media Content Creation</a></li>
+                        <li><a href="#services">Brand Identity Design</a></li>
+                        <li><a href="#services">Motion Graphics & Animation</a></li>
+                        <li><a href="#services">YouTube Channel Branding</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#contact">Get a Quote</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-contact-info">
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+923175919638">+92 317 5919638</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-whatsapp"></i>
+                            <a href="https://wa.me/923175919638" target="_blank">WhatsApp</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:pixavosolution@gmail.com">pixavosolution@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>24/7 Support Available</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-globe-americas"></i>
+                            <span>Serving clients worldwide</span>
+                        </li>
+                    </ul>
+                    
+                    <div style="margin-top: 20px;">
+                        <h4 style="margin-bottom: 10px;">Follow Us</h4>
+                        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                            <a href="https://www.tiktok.com/@pixavo3" target="_blank" style="color: #ccc; font-size: 14px;">TikTok</a>
+                            <a href="https://www.instagram.com/pixavosolution/" target="_blank" style="color: #ccc; font-size: 14px;">Instagram</a>
+                            <a href="https://www.linkedin.com/in/pixavo-7928913a7/" target="_blank" style="color: #ccc; font-size: 14px;">LinkedIn</a>
+                            <a href="https://www.youtube.com/@Pixavo-j6m" target="_blank" style="color: #ccc; font-size: 14px;">YouTube</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; <span id="currentYear"></span> Pixavo Creative Agency. All rights reserved. | Professional Video Editing & Graphic Design Services for Global Clients, YouTubers, Startups, and Businesses.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Loading Screen
+        window.addEventListener('load', function() {
+            const loading = document.getElementById('loading');
+            setTimeout(() => {
+                loading.classList.add('hidden');
+            }, 1000);
+        });
+
+        // Set current year in footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navLinks = document.getElementById('navLinks');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            mobileMenuBtn.innerHTML = navLinks.classList.contains('active') 
+                ? '<i class="fas fa-times"></i>' 
+                : '<i class="fas fa-bars"></i>';
+        });
+        
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+        });
+        
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            const backToTop = document.getElementById('backToTop');
+            
+            if (window.scrollY > 50) {
+                header.classList.add('header-scrolled');
+            } else {
+                header.classList.remove('header-scrolled');
+            }
+            
+            // Show/Hide back to top button
+            if (window.scrollY > 500) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+            
+            // Update active nav link based on scroll position
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-links a');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 150)) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+        
+        // Form submission
+        const contactForm = document.getElementById('contactForm');
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                company: document.getElementById('company').value,
+                service: document.getElementById('service').value,
+                message: document.getElementById('message').value
+            };
+            
+            // Show success message with animation
+            const submitBtn = contactForm.querySelector('button[type="submit"]');
+            const originalText = submitBtn.textContent;
+            submitBtn.innerHTML = '<i class="fas fa-check-circle"></i> Request Sent!';
+            submitBtn.style.background = 'var(--gradient-accent)';
+            
+            // In a real application, you would send this data to a server
+            // For this demo, we'll just show an alert
+            setTimeout(() => {
+                alert(`Thank you ${formData.name}! Your creative project request has been submitted. Our team will contact you at ${formData.email} within 12 hours.`);
+                
+                // Reset form and button
+                contactForm.reset();
+                submitBtn.textContent = originalText;
+                submitBtn.style.background = '';
+            }, 1000);
+        });
+        
+        // Portfolio filtering
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+        
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Update active button
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                
+                const filterValue = btn.getAttribute('data-filter');
+                
+                // Filter portfolio items
+                portfolioItems.forEach(item => {
+                    if (filterValue === 'all' || item.getAttribute('data-category').includes(filterValue)) {
+                        item.style.display = 'block';
+                        setTimeout(() => {
+                            item.style.opacity = '1';
+                            item.style.transform = 'scale(1)';
+                        }, 100);
+                    } else {
+                        item.style.opacity = '0';
+                        item.style.transform = 'scale(0.8)';
+                        setTimeout(() => {
+                            item.style.display = 'none';
+                        }, 300);
+                    }
+                });
+            });
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if(targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 100,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Back to top functionality
+        document.getElementById('backToTop').addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Initialize animations on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-fadeInUp');
+                }
+            });
+        }, observerOptions);
+        
+        // Observe elements for animation
+        document.querySelectorAll('.service-card, .portfolio-item, .about-text, .about-visual, .contact-form, .contact-info').forEach(el => {
+            observer.observe(el);
+        });
+        
+        // Floating animation for shapes
+        const shapes = document.querySelectorAll('.shape');
+        shapes.forEach((shape, index) => {
+            shape.style.animationDuration = `${20 + index * 5}s`;
+        });
+
+        // Logo animation on hover
+        const logo = document.querySelector('.logo');
+        logo.addEventListener('mouseenter', () => {
+            const logoImage = document.querySelector('.logo-image');
+            logoImage.style.transform = 'scale(1.05) rotate(2deg)';
+        });
+        
+        logo.addEventListener('mouseleave', () => {
+            const logoImage = document.querySelector('.logo-image');
+            logoImage.style.transform = 'scale(1) rotate(0deg)';
+        });
+
+        // Social media icon hover effects
+        document.querySelectorAll('.social-icon').forEach(icon => {
+            icon.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-10px)';
+            });
+            
+            icon.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+    </script>
+</body>
+</html>
